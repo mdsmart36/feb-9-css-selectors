@@ -1,3 +1,13 @@
-h1{
-	color: blue;
-}
+/*
+CSS selectors in order of efficiency
+-----------------------------------------------
+ID                           (#header)
+Class                        (.promo)
+Type                         (div)
+Adjacent sibling             (h2 + p)
+Child                        (li > ul)
+Descendant                   (ul a)
+Universal                    (*)
+Attribute                    ([type="text"])
+Pseudo-classes/-elements     (a:hover)
+*/
